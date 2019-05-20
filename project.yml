@@ -6,6 +6,6 @@ compiler:
    - clang
    - gcc
 script:  
-   - gcc -o chandu pattern.c 
-   - ./pattern
+   - gcc -o chandu project.c 
+   - ./project
 
