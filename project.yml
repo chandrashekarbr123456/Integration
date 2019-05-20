@@ -1,13 +1,13 @@
 
-  include:    
-  language: c  
-      sudo: false # only for faster builds  
-  compiler:
-	- clang
-	- gcc
-  script:  
-	- gcc -o chandu pattern.c 
-	- ./pattern
+ include:    
+ language: c  
+   sudo: false # only for faster builds  
+compiler:
+   - clang
+   - gcc
+script:  
+   - gcc -o chandu pattern.c 
+   - ./pattern
 	
 
 
