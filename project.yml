@@ -1,16 +1,16 @@
 matrix:
-	  include:    
-	    - language: c  
-	      sudo: false # only for faster builds  
-	      compiler:
-	        - clang
-	        - gcc
-	      script:  
-	        - gcc -o chandu pattern.c 
-	        - ./pattern
-	        - gcc -o pattar fact_manju.c
-	        - ./fact_manju
-	        - gcc -o peace triangle_pattern.c
-	        - ./triangle_pattern
+  include:    
+    - language: c  
+      sudo: false # only for faster builds  
+      compiler:
+	- clang
+	- gcc
+      script:  
+	- gcc -o chandu pattern.c 
+	- ./pattern
+	- gcc -o pattar fact_manju.c
+	- ./fact_manju
+	- gcc -o peace triangle_pattern.c
+	- ./triangle_pattern
 
 
