@@ -8,6 +8,4 @@ compiler:
 script:  
    - gcc -o chandu pattern.c 
    - ./pattern
-	
-
 
